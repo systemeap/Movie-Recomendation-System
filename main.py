@@ -105,8 +105,31 @@ resultado = score('Shrek')
 print("\nResultado de la búsqueda: ")
 print(resultado)
 #------------------------------------------------------------------------
-
-
+@app.get("/votos_titulos/{titulo}")
+async def votos_titulos(titulo):
+    '''
+    Me defino una función llamada "votos_titulos()", que recibe un parametro
+       un titulo de pelicula, esta función devuelve la cantidad de votos 
+       que tiene la pelicula y el promedio de votos.
+       Parameters
+          titulo: str
+       Return
+          votos: float   
+    '''
+    pelicula = df[df['title'] == titulo]
+    # Verificar si la película existe en el DataFrame
+    if pelicula.empty:
+        return "La película no fue encontrada en el dataset."
+    # Obtener los detalles de la película
+    titulo = pelicula['title'].values[0]
+    votos = pelicula['vote_count'].values[0]
+    votosPromedio = pelicula['vote_average'].values[0]
+    # Formatear y devolver el resultado
+    return f"La película {titulo} tiene una cantidad de votos de  {votos} con un promedio {votosPromedio}."
+# Llamo a la funcion con datos, para ver el resultado
+resultado =votos_titulos('Shrek')
+print(f"\nResultado de la búsqueda: resultado")
+#-------------------------------------------------------
 
 
     
