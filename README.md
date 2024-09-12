@@ -1,4 +1,4 @@
-<div align="center";color="blue";font-size=20># Movie-Recomendation-System</div>
+<div align="center"><font size=20 color="blue">Movie-Recomendation-System</font></div>
 <div align="center">PROYECTO INDIVIDUAL Nº1</div>
 
 
