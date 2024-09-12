@@ -75,6 +75,35 @@ async def cantidad_filmaciones_dia(dia):
 dia = 'domingo'
 cantidad_peliculas = cantidad_filmaciones_dia(dia)
 print(f"Cantidad de películas estrenadas en {dia}: {cantidad_peliculas}")
+#------------------------------------------------------------------------
+def score_titulo(titulo):
+    '''
+    Me defino una función llamada "score_titulo()", que recibe un parametro
+       el titulo de una pelicula, esta funcion devuelve el score en relacion a la 
+       popularidad de dicha pelicula
+       Parameters
+          titulo: str
+       Return
+          score(popularidad): int  
+          pelicula:str
+          anio: str
+    '''
+    score = str(df['popularity'].iloc[0])
+    pelicula = df[df['title'] == titulo]
+    # Verificar si la película existe en el DataFrame
+    if pelicula.empty:
+        return "La película no fue encontrada en el dataframe."
+        # Obtener los detalles de la película
+    titulo = pelicula['title'].values[0]
+    anio = pelicula['release_date'].values[0]
+    popularidad = pelicula['popularity'].values[0]
+    # Formatear y devolver el resultado
+    return f"La película {titulo} fue estrenada en el año {anio} con un score/popularidad de {popularidad}."
+#Llamo a la funcion con dos datos, y obtengo un resultado, el cual lo muestro
+resultado = score_titulo(df, 'Shrek')
+print("\nResultado de la búsqueda: ")
+print(resultado)
+#------------------------------------------------------------------------
 
 
 
