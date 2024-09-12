@@ -7,7 +7,7 @@ app=FastAPI()
 def home():
     return "Aca estoy pagina principal"
 #---------------------------------------
-df = pd.read_csv('DataSet_MVP/MoviesDesanidado.csv')
+df = pd.read_csv('MoviesDesanidado.csv')
 #print(df.head(10))
 #print(df.info())
 #---------------------------------------
