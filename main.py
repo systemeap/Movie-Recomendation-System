@@ -77,7 +77,7 @@ cantidad_peliculas = cantidad_filmaciones_dia(dia)
 print(f"Cantidad de películas estrenadas en {dia}: {cantidad_peliculas}")
 #------------------------------------------------------------------------
 @app.get("/score/{titulo}")
-def score(titulo):
+async def score(titulo):
     '''
     Me defino una función llamada "score_titulo()", que recibe un parametro
        el titulo de una pelicula, esta funcion devuelve el score en relacion a la 
