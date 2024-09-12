@@ -76,7 +76,7 @@ dia = 'domingo'
 cantidad_peliculas = cantidad_filmaciones_dia(dia)
 print(f"Cantidad de películas estrenadas en {dia}: {cantidad_peliculas}")
 #------------------------------------------------------------------------
-def score_titulo(titulo):
+def score(titulo):
     '''
     Me defino una función llamada "score_titulo()", que recibe un parametro
        el titulo de una pelicula, esta funcion devuelve el score en relacion a la 
@@ -100,7 +100,7 @@ def score_titulo(titulo):
     # Formatear y devolver el resultado
     return f"La película {titulo} fue estrenada en el año {anio} con un score/popularidad de {popularidad}."
 #Llamo a la funcion con dos datos, y obtengo un resultado, el cual lo muestro
-resultado = score_titulo(df, 'Shrek')
+resultado = score('Shrek')
 print("\nResultado de la búsqueda: ")
 print(resultado)
 #------------------------------------------------------------------------
