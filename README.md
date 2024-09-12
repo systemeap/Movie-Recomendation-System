@@ -1,5 +1,7 @@
-# Movie-Recomendation-System
-PROYECTO INDIVIDUAL Nº1
+<div align="center";color="blue";font-size=20># Movie-Recomendation-System</div>
+<div align="center">PROYECTO INDIVIDUAL Nº1</div>
+
+
 Esteban Ariel Parrón
 Machine Learning Operations 
  
