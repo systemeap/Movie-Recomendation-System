@@ -11,36 +11,36 @@ df = pd.read_csv('DataSet_MVP/MoviesDesanidado.csv')
 #print(df.head(10))
 #print(df.info())
 #---------------------------------------
-@app.get("/Peliculas por MES/{mes}")
-async def contar_peliculas_mes(mes:str):
-   ''' 
-   Me defino una función llamada contar_peliculas_mes, que recibe un parametro
-   un mes, esta funcion devuelve la cantidad de peliculas que se estrenaron,
-   en el mes, pasado como parametro.
-   Parameters
-      mes: str
-   Return
-      pelicula_en_mes: int  
-   '''
+#@app.get("/Peliculas por MES/{mes}")
+#async def contar_peliculas_mes(mes:str):
+#   ''' 
+#   Me defino una función llamada contar_peliculas_mes, que recibe un parametro
+#   un mes, esta funcion devuelve la cantidad de peliculas que se estrenaron,
+#   en el mes, pasado como parametro.
+#   Parameters
+#      mes: str
+#   Return
+#      pelicula_en_mes: int  
+#   '''
 # Diccionario para convertir meses en español a números de mes
-   meses = {
-        'enero': 1, 'febrero': 2, 'marzo': 3, 'abril': 4, 'mayo': 5, 'junio': 6,
-        'julio': 7, 'agosto': 8, 'septiembre': 9, 'octubre': 10, 'noviembre': 11, 'diciembre': 12
-        }
-   if mes not in meses:
-       raise HTTPException(status_code=400, detail=f"El mes {mes} no es válido")
+#   meses = {
+#        'enero': 1, 'febrero': 2, 'marzo': 3, 'abril': 4, 'mayo': 5, 'junio': 6,
+#        'julio': 7, 'agosto': 8, 'septiembre': 9, 'octubre': 10, 'noviembre': 11, 'diciembre': 12
+#        }
+#   if mes not in meses:
+#       raise HTTPException(status_code=400, detail=f"El mes {mes} no es válido")
 # Obtener el número correspondiente al mes
-   mes_nro = meses.get(mes.lower())
-   if mes_nro is None:
-      return f"El mes '{mes}' no existe."
+#   mes_nro = meses.get(mes.lower())
+#   if mes_nro is None:
+#      return f"El mes '{mes}' no existe."
 # Filtrar las filas donde el mes de 'release_date' sea igual a mes_numero
-   peliculas_en_mes = df[df['release_date'].dt.month == mes_nro]
+#   peliculas_en_mes = df[df['release_date'].dt.month == mes_nro]
 # Contar el número de películas en el mes
-   return len(peliculas_en_mes)
+#   return len(peliculas_en_mes)
 # Llamar a la función con el mes deseado
-mes = 'diciembre'
-cantidad_peliculas = contar_peliculas_mes(mes)
-print(f"Cantidad de películas estrenadas en {mes}: {cantidad_peliculas}")
+#mes = 'diciembre'
+#cantidad_peliculas = contar_peliculas_mes(mes)
+#print(f"Cantidad de películas estrenadas en {mes}: {cantidad_peliculas}")
 #-------------------------------------------------------
 @app.get("/cantidad_peliculas_dia/{dia}")
 async def cantidad_filmaciones_dia(dia):
