@@ -1,11 +1,8 @@
-<div align="center"><font size=20 color="blue">Movie-Recomendation-System</font></div>
+<div align="center"><font size="30" color="red">Movie-Recomendation-System</font></div>
 <div align="center">PROYECTO INDIVIDUAL Nº1</div>
-
-
-Esteban Ariel Parrón
-Machine Learning Operations 
- 
-TABLA DE CONTENIDO
+<div align="center">Esteban Ariel Parrón - Machine Learning Operations </div>
+<div><font family="Verdana" size="14" color="black">
+ TABLA DE CONTENIDO
 1-	Introducción
 2-	Objetivos (principales y secundarios)
 3-	Herramientas informáticas utilizadas
@@ -93,3 +90,9 @@ Me despido de todo el PLANTEL DE PROFESIONALES que estuvieron al lado mio enseñ
 
 
 Es una API, que tiene 5 ENDPOINTS, a la cual se le puede consultar, por distintos temas relacionados a las peliculas (Cantidad de peliculas filmadas en un dia en especial, En un mes en especial, 
+
+</font></div>
+
+
+
+ 
