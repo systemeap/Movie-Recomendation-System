@@ -2,7 +2,11 @@
 <div align="center">PROYECTO INDIVIDUAL Nº1</div>
 <div align="center">Esteban Ariel Parrón - Machine Learning Operations </div>
 <div align="center">
+<div align="center">
 
+<font size="5" color="green" style="font-weight: bold;">Título Centrado en Verde con Negrita</font>
+
+</div>
 # <font color="red" size="6">Proyecto Atractivo</font>
 
 Bienvenido a mi proyecto. Aquí encontrarás todo lo necesario para comenzar.
