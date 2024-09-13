@@ -1,6 +1,13 @@
-<div align="center"><font size="30" color="red">Movie-Recomendation-System</font></div>
+<div align="center"># <font size="30" color="red">Movie-Recomendation-System</font></div>
 <div align="center">PROYECTO INDIVIDUAL Nº1</div>
 <div align="center">Esteban Ariel Parrón - Machine Learning Operations </div>
+<div align="center">
+
+# <font color="red" size="6">Proyecto Atractivo</font>
+
+Bienvenido a mi proyecto. Aquí encontrarás todo lo necesario para comenzar.
+
+</div>
 <div><font family="Verdana" size="14" color="black">
  TABLA DE CONTENIDO
 1-	Introducción
