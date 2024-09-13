@@ -1,4 +1,4 @@
-# <div align="center"><font color:"red">Movie-Recomendation-System</font></div>
+# <div align="center"><font style="color:red">Movie-Recomendation-System</font></div>
 <div align="center">PROYECTO INDIVIDUAL Nº1</div>
 <div align="center">Esteban Ariel Parrón - Machine Learning Operations </div>
 <div align="center">
