@@ -1,3 +1,11 @@
+<html>
+ <head>
+  
+ </head>
+ <body>
+    <p style="color:red;">Este es un texto en rojo.</p>
+ </body>
+</html>
 # <div align="center"><font style="color:red;">Movie-Recomendation-System</font></div>
 <p style="color:red;">Este es un texto en rojo.</p>
 <div align="center">PROYECTO INDIVIDUAL Nº1</div>
