@@ -33,7 +33,9 @@ async def contar_peliculas_mes(mes:str):
     mes_nro = meses.get(mes.lower())
     if mes_nro is None:
         return f"El mes '{mes}' no existe."
-# Filtrar las filas donde el mes de 'release_date' sea igual a mes_numero
+# Convertir la columna 'release_date' a tipo datetime
+    df['release_date'] = pd.to_datetime(df['release_date'], errors='coerce')
+# Filtrar las filas donde el mes de 'release_date' sea igual a mes_nro
     peliculas_en_mes = df[df['release_date'].dt.month == mes_nro]
 # Contar el número de películas en el mes
     return len(peliculas_en_mes)
