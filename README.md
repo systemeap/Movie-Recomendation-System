@@ -50,11 +50,15 @@ Crear una columna con el nombre return, para devolver el retorno de inversion de
 
 # HERRAMIENTAS INFORMATICAS
 1-	<strong>Visual Studio Code:</strong> Editor de texto plano, y IDE (interfaz de usuario). Para el desarrollo y utilización de herramienta secundaria como lo es jupyter notebook.
+
 2-	<strong>Jupyter Notebook:</strong> Para poder desplegar los dataset y visualizarlos de mejor forma, también para hacer el ETL, el EDA y el ML.
+
 3-	<strong>Github:</strong> Use esta plataforma para almacenar el proyecto. En el mismo se creó un repositorio (Sistema de Recomendación de Películas), cada cambio que hago en local, se actualiza en dicho repositorio. 
+
 4-	<strong>Render:</strong> se utilizó esta plataforma para almacenar y deployar el proyecto. 
 Se debe crear una cuenta (puede ser paga o gratuita), cuando tenemos grandes volúmenes de datos y uso de mucha memoria es aconsejable tener una cuenta paga, para que no nos surjan problemas, ni incompatibilidades a la hora de deployar el proyecto.
 Luego hay que vincular el repositorio que subimos a github y la plataforma render. 
+
 
 Doy GRACIAS A MIS COMPAÑEROS que tuve en el transcurso de la cursada por la colaboración en cada cohorte y A TODO EL PLANTEL DE PROFESIONALES DE HENRY, que de una u otra manera, me ayudaron a demostrar y a aprender nuevas habilidades en la ciencia de la informática moderna con el LENGUAJE PYTHON.
 
