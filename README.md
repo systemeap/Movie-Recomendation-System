@@ -48,16 +48,15 @@ Además, el proyecto incluye una interfaz de usuario simple, ligera y amigable, 
 Se debe crear una cuenta (puede ser paga o gratuita), cuando tenemos grandes volúmenes de datos y uso de mucha memoria es aconsejable tener una cuenta paga, para que no nos surjan problemas, ni incompatibilidades a la hora de deployar el proyecto.
 Luego hay que vincular el repositorio que subimos a github y la plataforma render. 
 
-
-Doy GRACIAS A MIS COMPAÑEROS que tuve en el transcurso de la cursada por la colaboración en cada cohorte y A TODO EL PLANTEL DE PROFESIONALES DE HENRY, que de una u otra manera, me ayudaron a demostrar y a aprender nuevas habilidades en la ciencia de la informática moderna con el LENGUAJE PYTHON.
-
 # 4- INSTALACIONES Y REQUERIMIENTOS
 Para realizar dicho proyecto se hizo uso de las distintas librerías que posee PYTHON.
+
 Se realizó un entorno virtual (virtualenv), para poder trabajar con programas específicos y usos de librerías de python como ser(pip, fastAPI, pandas, numpy, matplotlib, scikit-learn y otras).
 
 # 5- DESARROLLO DEL PROYECTO
 El proceso que realice fue:
-1-	Comencé con el ETL: De los dos dataset que forman parte de los datos que teníamos.
+
+<strong>1-	Comencé con el ETL:</strong> De los dos dataset que forman parte de los datos que teníamos.
 ## ETL (Extracion Transformacion y Limpieza de datos)
 <strong>Etapa de Extraccion:</strong> Comenzaremos extrayendo los datos de dos archivos csv, los cuales son "movies_dataset.csv" y "credits.csv", que nos pasaron.
 Vamoos a comenzar a analizar, de acuerdo al diccionario de datos que nos dieron, que atributos posee cada uno y ver que tipos de datos tienen, (int, float, str, listas, diccionario,etc.).
@@ -68,26 +67,39 @@ Formatear las fecha del atributo, release_date con el formato AAAA-mm-dd, y crea
 Crear una columna con el nombre return, para devolver el retorno de inversion de revenue y budget, dividiendolas. Y si no hay datos disponibles que tome el valor 0.
 
 <strong>Etapa de Eliminacion de datos:</strong> Eliminar las columnas que no serán utilizadas, video,imdb_id,adult,original_title,poster_path y homepage.
-2-	Desarrollo de la API y de los endpoints:
+
+<strong>2-	Desarrollo de la API y de los endpoints:</strong>
 Los endpoints desarrollados fueron:
 •	def cantidad_peliculas_mes(mes): Se ingresa el mes en minúscula, por ejemplo abril, y la función retorna la cantidad de películas que se estrenaron en ese mes.
+
 Formato de salida: En el mes de {mes} se estrenaron {cantidad} películas.
-•	def cantidad_peliculas_dia(dia): Se ingresa el día en minúscula, por ejemplo sábado, y la función retorna la cantidad de películas que se estrenaron ese día.  Formato de salida: En el día {dia} se estrenaron {cantidad} películas
+
+•	def cantidad_peliculas_dia(dia): Se ingresa el día en minúscula, por ejemplo sábado, y la función retorna la cantidad de películas que se estrenaron ese día.
+
+Formato de salida: En el día {dia} se estrenaron {cantidad} películas.
+
 •	def score_titulo(titulo): Se ingresa el título de una película, por ejemplo "Titanic", y se retorna el título, el año de estreno y el score.
+
   Formato de salida: "Título de la película": resultado['title'], "Año":           resultado['release_year'], "Puntaje": resultado['vote_average'].
+  
 •	def votos_titulo(titulo): Se ingresa el título de una película, por ejemplo "Titanic", y se retorna el título, el año de estreno y el score.
-  Formato de salida: {
+
+Formato de salida: {
           'Título de la película': titulo, 
           'Año': year_es, 
           'Voto total': voto_tot, 
           'Voto promedio': voto_prom}
+          
 •	def get_actor(nombre_actor): Se ingresa el nombre de un actor, por ejemplo "Tom Hanks" y se retorna su éxito medido a través del retorno, cantidad de películas y promedio de retorno.
+
 Formato de salida: {
   "Actor/Actriz": nombre_actor,
   "Cantidad de películas": cantidad_peliculas,
   "Retorno Total": total_retorno,
   "Retorno Promedio": promedio_retorno}
+  
 •	def get_director(nombre_director): Se ingresa el nombre de un director y se retorna su éxito medido a través del retorno, nombre de cada película, fecha de lanzamiento, retorno individual, costo y ganancia.
+
 Formato de salida: {
   "Director": nombre_director,
   "Retorno Total": total_retorno,
@@ -98,25 +110,27 @@ Formato de salida: {
           "Retorno":      ,
           "Presupuesto":   ,
           "Ganancia":    }
-3-	Análisis exploratorio de los datos EDA:
-4-	Realización y estudio de modelo de ML:
-VIDEO DEL PROYECTO
+          
+<strong>3-	Análisis exploratorio de los datos EDA:</strong>
+
+<strong>4-	Realización y estudio de modelo de ML:</strong>
+
+# 6- VIDEO DEL PROYECTO
 El video se realizó para demostrar y enseñar los pasos que se hicieron para realizar el proyecto, las herramientas que se utilizaron y que se instalaron y prueba en servidor local usando FASTAPI, y en producción usando la plataforma RENDER.
 Link del video:
-TERMINOLOGIA USADAS
+
+# 7- TERMINOLOGIA USADAS
 ETL: Proceso de extracción, transformación y limpieza de los datos que se realizan, para poder entender o tomar decisiones con los mismos.
 EDA:
 FASTAPI:
 ML:
-RENDER
-DESPEDIDA Y AGRADECIMIENTO
+RENDER:
+# 8- DESPEDIDA Y AGRADECIMIENTO
 Me despido de todo el PLANTEL DE PROFESIONALES que estuvieron al lado mio enseñándonos, y de los compañeros maravillosos que también me acompañaron desde que inicie hasta llegar a esta primera instancia de los proyectos individuales.
 
 
 
-Es una API, que tiene 5 ENDPOINTS, a la cual se le puede consultar, por distintos temas relacionados a las peliculas (Cantidad de peliculas filmadas en un dia en especial, En un mes en especial, 
 
-</font></div>
 
 
 
