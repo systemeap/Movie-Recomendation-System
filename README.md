@@ -4,13 +4,17 @@
 
 Bienvenido a mi proyecto. Aquí encontrarás todo lo necesario para comenzar.
 <h2>
-##<div><h2><font color="blue"><strong>TABLA DE CONTENIDO</strong></font></h2>div>
+##<div><h2><font color="blue"><strong>TABLA DE CONTENIDO</strong></font></h2></div>
 
-- [Introduccion](#Introduccion)
+1- [Introduccion](#Introduccion)
 - [Objetivos (principales y secundarios)](#instalación)
 - [Herramientas informaticas utilizadas](#uso)
-- [Imágenes](#imágenes)
-- [Contribución](#contribución)
+- [Instalación y requerimientos ](#Instalación y requerimientos )
+- [Desarrollo del proyecto](#Desarrollo del proyecto)
+- [Video realización del proyecto](#Video realización del proyecto)
+- [Deployado de la API en RENDER](#Deployado de la API en RENDER)
+- [Terminologías utilizadas](#Terminologías utilizadas)
+- [Despedida y agradecimientos](#Despedida y agradecimientos
 - [Licencia](#licencia)
 1-	Introducción
 2-	Objetivos (principales y secundarios)
