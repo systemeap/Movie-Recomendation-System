@@ -4,7 +4,7 @@
 
 Bienvenido a mi proyecto. Aquí encontrarás todo lo necesario para comenzar.
 <h2>
-##<div><h2><font color="blue"><strong>TABLA DE CONTENIDO</strong></font></h2></div>
+<div><h2><font color="blue"><strong>TABLA DE CONTENIDO</strong></font></h2></div>
 
 - [1- Introduccion](#INTRODUCCION)
 - [2- Objetivos principales y secundarios](#OBJETIVOS)
@@ -27,9 +27,10 @@ Para este sistema que utiliza un enfoque de filtrado basado en contenido, se ana
 Vamos a aplicar técnicas como la vectorización, este sistema de TF-IDF (Term Frequency-Inverse Document Frequency) se utiliza en procesamiento de lenguaje natural (NLP) para convertir texto en una representación numérica que refleja la importancia de las palabras en un conjunto de documentos. 
 Además, el proyecto incluye una interfaz de usuario simple, ligera y amigable, deployada en FASTAPI.
 Para esto vamos a hacer uso de:
-ETL (Extracion Transformacion y Limpieza de datos)
+## ETL (Extracion Transformacion y Limpieza de datos)
 <strong>Etapa de Extraccion:</strong> Comenzaremos extrayendo los datos de dos archivos csv, los cuales son "movies_dataset.csv" y "credits.csv", que nos pasaron.
 Vamoos a comenzar a analizar, de acuerdo al diccionario de datos que nos dieron, que atributos posee cada uno y ver que tipos de datos tienen, (int, float, str, listas, diccionario,etc.).
+
 
 Doy GRACIAS A MIS COMPAÑEROS que tuve en el transcurso de la cursada por la colaboración en cada cohorte y A TODO EL PLANTEL DE PROFESIONALES DE HENRY, que de una u otra manera, me ayudaron a demostrar y a aprender nuevas habilidades en la ciencia de la informática moderna con el LENGUAJE PYTHON.
 OBJETIVOS
