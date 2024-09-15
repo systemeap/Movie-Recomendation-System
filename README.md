@@ -1,15 +1,14 @@
 # <div align="center"><font style="color:red;">Movie-Recomendation-System</font></div>
 # <div align="center">PROYECTO INDIVIDUAL Nº1</div>
 <div align="center">Esteban Ariel Parrón - Machine Learning Operations </div>
-Bienvenido a mi proyecto. Aquí encontrarás todo lo necesario para comenzar.
 
+Bienvenido a mi proyecto. Aquí encontrarás todo lo necesario para comenzar.
 <h2>
   <font color="blue"><strong>TABLA DE CONTENIDO</strong></font>
 </h2>
-
-1-	Introducción
-2-	Objetivos (principales y secundarios)
-3-	Herramientas informáticas utilizadas
+#1-	Introducción
+#2-	Objetivos (principales y secundarios)
+#3-	Herramientas informáticas utilizadas
 4-	Instalación y requerimientos 
 5-	Desarrollo del proyecto
 6-	Video realización del proyecto
