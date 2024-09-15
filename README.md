@@ -6,7 +6,7 @@ Bienvenido a mi proyecto. Aquí encontrarás todo lo necesario para comenzar.
 <h2>
 ##<div><h2><font color="blue"><strong>TABLA DE CONTENIDO</strong></font></h2></div>
 
-1- [Introduccion](#Introduccion)
+- [1- Introduccion](#Introduccion)
 - [Objetivos (principales y secundarios)](#instalación)
 - [Herramientas informaticas utilizadas](#uso)
 - [Instalación y requerimientos ](#Instalación y requerimientos )
