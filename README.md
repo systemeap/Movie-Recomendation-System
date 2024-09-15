@@ -7,14 +7,14 @@ Bienvenido a mi proyecto. Aquí encontrarás todo lo necesario para comenzar.
 ##<div><h2><font color="blue"><strong>TABLA DE CONTENIDO</strong></font></h2></div>
 
 - [1- Introduccion](#Introduccion)
-- [2- Objetivos (principales y secundarios)](#Objetivos (principales y secundarios))
-- [3- Herramientas informaticas utilizadas](#Herramientas informaticas utilizadas)
-- [4- Instalación y requerimientos ](#Instalación y requerimientos )
-- [5- Desarrollo del proyecto](#Desarrollo del proyecto)
-- [6- Video realización del proyecto](#Video realización del proyecto)
-- [7- Deployado de la API en RENDER](#Deployado de la API en RENDER)
-- [8- Terminologías utilizadas](#Terminologías utilizadas)
-- [9- Despedida y agradecimientos](#Despedida y agradecimientos)
+- [2- Objetivos principales y secundarios](#Objetivos)
+- [3- Herramientas informaticas utilizadas](#Herramientas)
+- [4- Instalación y requerimientos ](#Instalación)
+- [5- Desarrollo del proyecto](#Desarrollo)
+- [6- Video realización del proyecto](#Video)
+- [7- Deployado de la API en RENDER](#Deployado)
+- [8- Terminologías utilizadas](#Terminologías)
+- [9- Despedida y agradecimientos](#Despedida)
 - [10- Licencia](#licencia)
 
 1-	INTRODUCCION
