@@ -30,10 +30,12 @@ Para esto vamos a hacer uso de:
 ## ETL (Extracion Transformacion y Limpieza de datos)
 <strong>Etapa de Extraccion:</strong> Comenzaremos extrayendo los datos de dos archivos csv, los cuales son "movies_dataset.csv" y "credits.csv", que nos pasaron.
 Vamoos a comenzar a analizar, de acuerdo al diccionario de datos que nos dieron, que atributos posee cada uno y ver que tipos de datos tienen, (int, float, str, listas, diccionario,etc.).
+
 <strong>Etapa de Transformacion:</strong> En esta etapa haremos las transformaciones solicitadas, desanidar belongs_to_collection y production_companies, ya que son diccionario que estan adentro de una lista.
 Tambien ver los valores nulos de los campos revenue y budget y rellenarlos con 0 y los de release_date eliminarlos.
 Formatear las fecha del atributo, release_date con el formato AAAA-mm-dd, y crear la columna release_year, del cual se extraera el año de la fecha de extreno.
 Crear una columna con el nombre return, para devolver el retorno de inversion de revenue y budget, dividiendolas. Y si no hay datos disponibles que tome el valor 0.
+
 <strong>Etapa de Eliminacion de datos:</strong> Eliminar las columnas que no serán utilizadas, video,imdb_id,adult,original_title,poster_path y homepage.
 
 Doy GRACIAS A MIS COMPAÑEROS que tuve en el transcurso de la cursada por la colaboración en cada cohorte y A TODO EL PLANTEL DE PROFESIONALES DE HENRY, que de una u otra manera, me ayudaron a demostrar y a aprender nuevas habilidades en la ciencia de la informática moderna con el LENGUAJE PYTHON.
