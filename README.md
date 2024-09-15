@@ -42,8 +42,10 @@ Crear una columna con el nombre return, para devolver el retorno de inversion de
 ## Objetivos principales
 •	Deployar una API (Aplicattion Programing Interface), para un sistema de recomendación de películas.
 ## Objetivos secundarios
-•	Realizar un proceso de ETL (Extract, Transform, Load)
-•	Realizar el proceso de EDA ()
+•	Realizar un proceso de ETL (Extract, Transform, Load).
+
+•	Realizar el proceso de EDA ().
+
 •	Crear 5 endpoints, para la API, donde se puede consultar datos específicos y hacer una recomendación de películas.
 
 # HERRAMIENTAS INFORMATICAS
