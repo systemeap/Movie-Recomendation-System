@@ -26,17 +26,6 @@ Para este ´proyecto voy a desarrollar una API, con 5 endpoints en los cuales no
 Para este sistema que utiliza un enfoque de filtrado basado en contenido, se analiza el texto descriptivo de las películas.
 Vamos a aplicar técnicas como la vectorización, este sistema de TF-IDF (Term Frequency-Inverse Document Frequency) se utiliza en procesamiento de lenguaje natural (NLP) para convertir texto en una representación numérica que refleja la importancia de las palabras en un conjunto de documentos. 
 Además, el proyecto incluye una interfaz de usuario simple, ligera y amigable, deployada en FASTAPI.
-Para esto vamos a hacer uso de:
-## ETL (Extracion Transformacion y Limpieza de datos)
-<strong>Etapa de Extraccion:</strong> Comenzaremos extrayendo los datos de dos archivos csv, los cuales son "movies_dataset.csv" y "credits.csv", que nos pasaron.
-Vamoos a comenzar a analizar, de acuerdo al diccionario de datos que nos dieron, que atributos posee cada uno y ver que tipos de datos tienen, (int, float, str, listas, diccionario,etc.).
-
-<strong>Etapa de Transformacion:</strong> En esta etapa haremos las transformaciones solicitadas, desanidar belongs_to_collection y production_companies, ya que son diccionario que estan adentro de una lista.
-Tambien ver los valores nulos de los campos revenue y budget y rellenarlos con 0 y los de release_date eliminarlos.
-Formatear las fecha del atributo, release_date con el formato AAAA-mm-dd, y crear la columna release_year, del cual se extraera el año de la fecha de extreno.
-Crear una columna con el nombre return, para devolver el retorno de inversion de revenue y budget, dividiendolas. Y si no hay datos disponibles que tome el valor 0.
-
-<strong>Etapa de Eliminacion de datos:</strong> Eliminar las columnas que no serán utilizadas, video,imdb_id,adult,original_title,poster_path y homepage.
 
 # 2- OBJETIVOS
 ## Objetivos principales
@@ -48,7 +37,7 @@ Crear una columna con el nombre return, para devolver el retorno de inversion de
 
 •	Crear 5 endpoints, para la API, donde se puede consultar datos específicos y hacer una recomendación de películas.
 
-# HERRAMIENTAS INFORMATICAS
+# 3- HERRAMIENTAS INFORMATICAS
 1-	<strong>Visual Studio Code:</strong> Editor de texto plano, y IDE (interfaz de usuario). Para el desarrollo y utilización de herramienta secundaria como lo es jupyter notebook.
 
 2-	<strong>Jupyter Notebook:</strong> Para poder desplegar los dataset y visualizarlos de mejor forma, también para hacer el ETL, el EDA y el ML.
@@ -62,12 +51,23 @@ Luego hay que vincular el repositorio que subimos a github y la plataforma rende
 
 Doy GRACIAS A MIS COMPAÑEROS que tuve en el transcurso de la cursada por la colaboración en cada cohorte y A TODO EL PLANTEL DE PROFESIONALES DE HENRY, que de una u otra manera, me ayudaron a demostrar y a aprender nuevas habilidades en la ciencia de la informática moderna con el LENGUAJE PYTHON.
 
-INSTALACIONES Y REQUERIMIENTOS
+# 4- INSTALACIONES Y REQUERIMIENTOS
 Para realizar dicho proyecto se hizo uso de las distintas librerías que posee PYTHON.
-Se realizó un entorno virtual, para poder trabajar con programas específicos y usos de librerías de python como ser(pip, fastAPI, pandas, numpy, matplotlib, scikit-learn y otras).
-DESARROLLO DEL PROYECTO
+Se realizó un entorno virtual (virtualenv), para poder trabajar con programas específicos y usos de librerías de python como ser(pip, fastAPI, pandas, numpy, matplotlib, scikit-learn y otras).
+
+# 5- DESARROLLO DEL PROYECTO
 El proceso que realice fue:
 1-	Comencé con el ETL: De los dos dataset que forman parte de los datos que teníamos.
+## ETL (Extracion Transformacion y Limpieza de datos)
+<strong>Etapa de Extraccion:</strong> Comenzaremos extrayendo los datos de dos archivos csv, los cuales son "movies_dataset.csv" y "credits.csv", que nos pasaron.
+Vamoos a comenzar a analizar, de acuerdo al diccionario de datos que nos dieron, que atributos posee cada uno y ver que tipos de datos tienen, (int, float, str, listas, diccionario,etc.).
+
+<strong>Etapa de Transformacion:</strong> En esta etapa haremos las transformaciones solicitadas, desanidar belongs_to_collection y production_companies, ya que son diccionario que estan adentro de una lista.
+Tambien ver los valores nulos de los campos revenue y budget y rellenarlos con 0 y los de release_date eliminarlos.
+Formatear las fecha del atributo, release_date con el formato AAAA-mm-dd, y crear la columna release_year, del cual se extraera el año de la fecha de extreno.
+Crear una columna con el nombre return, para devolver el retorno de inversion de revenue y budget, dividiendolas. Y si no hay datos disponibles que tome el valor 0.
+
+<strong>Etapa de Eliminacion de datos:</strong> Eliminar las columnas que no serán utilizadas, video,imdb_id,adult,original_title,poster_path y homepage.
 2-	Desarrollo de la API y de los endpoints:
 Los endpoints desarrollados fueron:
 •	def cantidad_peliculas_mes(mes): Se ingresa el mes en minúscula, por ejemplo abril, y la función retorna la cantidad de películas que se estrenaron en ese mes.
