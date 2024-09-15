@@ -4,11 +4,17 @@
 
 Bienvenido a mi proyecto. Aquí encontrarás todo lo necesario para comenzar.
 <h2>
-  <font color="blue"><strong>TABLA DE CONTENIDO</strong></font>
-</h2>
-#1-	Introducción
-#2-	Objetivos (principales y secundarios)
-#3-	Herramientas informáticas utilizadas
+##<div><h2><font color="blue"><strong>TABLA DE CONTENIDO</strong></font></h2>div>
+
+- [Introduccion](#Introduccion)
+- [Objetivos (principales y secundarios)](#instalación)
+- [Herramientas informaticas utilizadas](#uso)
+- [Imágenes](#imágenes)
+- [Contribución](#contribución)
+- [Licencia](#licencia)
+1-	Introducción
+2-	Objetivos (principales y secundarios)
+3-	Herramientas informáticas utilizadas
 4-	Instalación y requerimientos 
 5-	Desarrollo del proyecto
 6-	Video realización del proyecto
