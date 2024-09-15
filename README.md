@@ -20,12 +20,17 @@ Bienvenido a mi proyecto. Aquí encontrarás todo lo necesario para comenzar.
 # 1-	INTRODUCCION
 Hola buenas a todos, nunca pensé que iba a llegar a esta instancia, ya que en el transcurso del cursado, por una u otra causa me sucedía algo, ya sea con la conectividad, con la subida de la tarea, revisión al servidor, o en su defecto algún problema personal, pero bueno acá estamos,(PERCEVERAS Y TRIUNFARAS) comence en la COHORTE 07.
 Y ahora acá por presentar mi primer <strong><font color="red">PROYECTO INDIVUDUAL</font></strong>, el cual es un MVP, para un sistema de recomendación de películas.
-Para este vamos a recordar tiempo atrás cuando comencé, con la CIENCIA DE DATOS y termine aprendiendo MACHINE LEARNING, para este utilizare distintas técnicas que aprendí en el transcurso del cursado.
+Para este vamos a recordar tiempo atrás cuando comencé, con la CIENCIA DE DATOS y termine aprendiendo MACHINE LEARNING, para este utilizare distintas técnicas y librerias que aprendí en el transcurso del cursado como (numpy, pandas, ETL, EDA, ML).
 Este proyecto simula un ambiente de trabajo real en una start-up que provee servicios de agregación de plataformas de streaming. 
-Voy a desarrollar una API, con 5 endpoints en los cuales nos permiten consultar información detallada sobre ( las películas, los actores y directores), y por ultimo con estos datos (genero, actores principales, directores y otros), elegir los más representativos y obtener recomendaciones de películas basadas en ellos. 
+Para este ´proyecto voy a desarrollar una API, con 5 endpoints en los cuales nos permiten consultar información detallada sobre ( las películas, los actores y directores), y por ultimo con estos datos (genero, actores principales, directores y otros), elegir los más representativos y obtener recomendaciones de películas basadas en ellos. Para asi hacer un MACHINE LEARNING. 
 Para este sistema que utiliza un enfoque de filtrado basado en contenido, se analiza el texto descriptivo de las películas.
 Vamos a aplicar técnicas como la vectorización, este sistema de TF-IDF (Term Frequency-Inverse Document Frequency) se utiliza en procesamiento de lenguaje natural (NLP) para convertir texto en una representación numérica que refleja la importancia de las palabras en un conjunto de documentos. 
 Además, el proyecto incluye una interfaz de usuario simple, ligera y amigable, deployada en FASTAPI.
+Para esto vamos a hacer uso de:
+ETL (Extracion Transformacion y Limpieza de datos)
+<strong>Etapa de Extraccion:</strong> Comenzaremos extrayendo los datos de dos archivos csv, los cuales son "movies_dataset.csv" y "credits.csv", que nos pasaron.
+Vamoos a comenzar a analizar, de acuerdo al diccionario de datos que nos dieron, que atributos posee cada uno y ver que tipos de datos tienen, (int, float, str, listas, diccionario,etc.).
+
 Doy GRACIAS A MIS COMPAÑEROS que tuve en el transcurso de la cursada por la colaboración en cada cohorte y A TODO EL PLANTEL DE PROFESIONALES DE HENRY, que de una u otra manera, me ayudaron a demostrar y a aprender nuevas habilidades en la ciencia de la informática moderna con el LENGUAJE PYTHON.
 OBJETIVOS
 Objetivo principal
