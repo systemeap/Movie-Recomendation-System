@@ -7,24 +7,15 @@ Bienvenido a mi proyecto. Aquí encontrarás todo lo necesario para comenzar.
 ##<div><h2><font color="blue"><strong>TABLA DE CONTENIDO</strong></font></h2></div>
 
 - [1- Introduccion](#Introduccion)
-- [Objetivos (principales y secundarios)](#instalación)
-- [Herramientas informaticas utilizadas](#uso)
-- [Instalación y requerimientos ](#Instalación y requerimientos )
-- [Desarrollo del proyecto](#Desarrollo del proyecto)
-- [Video realización del proyecto](#Video realización del proyecto)
-- [Deployado de la API en RENDER](#Deployado de la API en RENDER)
-- [Terminologías utilizadas](#Terminologías utilizadas)
-- [Despedida y agradecimientos](#Despedida y agradecimientos
-- [Licencia](#licencia)
-1-	Introducción
-2-	Objetivos (principales y secundarios)
-3-	Herramientas informáticas utilizadas
-4-	Instalación y requerimientos 
-5-	Desarrollo del proyecto
-6-	Video realización del proyecto
-7-	Deployado de la API en RENDER
-8-	Terminologías utilizadas
-9-	Despedida y agradecimientos
+- [2- Objetivos (principales y secundarios)](#Objetivos (principales y secundarios))
+- [3- Herramientas informaticas utilizadas](#Herramientas informaticas utilizadas)
+- [4- Instalación y requerimientos ](#Instalación y requerimientos )
+- [5- Desarrollo del proyecto](#Desarrollo del proyecto)
+- [6- Video realización del proyecto](#Video realización del proyecto)
+- [7- Deployado de la API en RENDER](#Deployado de la API en RENDER)
+- [8- Terminologías utilizadas](#Terminologías utilizadas)
+- [9- Despedida y agradecimientos](#Despedida y agradecimientos)
+- [10- Licencia](#licencia)
 
 1-	INTRODUCCION
 Hola buenas a todos, nunca pensé que iba a llegar a esta instancia, ya que en el transcurso del cursado, por una u otra causa me sucedía algo, ya sea con la conectividad, con la subida de la tarea, revisión al servidor, o en su defecto algún problema personal, pero bueno acá estamos, y era de la COHORTE 07.
