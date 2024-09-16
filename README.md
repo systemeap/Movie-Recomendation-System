@@ -115,6 +115,22 @@ Los endpoints desarrollados fueron:
           "Ganancia":    }
           
 <strong>3-	Análisis exploratorio de los datos EDA:</strong>
+El EDA (Exploratory Data Analysis) Es un proceso fundamental en ciencia de datos cuyo objetivo es comprender las características principales de un conjunto de datos antes de aplicar cualquier modelo predictivo o análisis estadístico avanzado. 
+
+A través del EDA, se buscan patrones, relaciones entre variables, distribuciones, valores atípicos, y características relevantes de los datos para una mejor toma de decisiones.
+Vamos a revisar cada uno de los datos.
+
+df.shape
+
+df.info()
+
+df.describe()
+
+df.isnull().sum()
+
+Con este proceso vamos a detectar errores, anomalias en los datos, identificar patrones y relaciones que no se ven a simple vista. 
+
+
 
 <strong>4-	Realización y estudio de modelo de ML:</strong>
 
