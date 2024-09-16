@@ -1,5 +1,7 @@
 # <div align="center"><font style="color:red;">Movie-Recomendation-System</font></div>
 # <div align="center">PROYECTO INDIVIDUAL Nº1</div>
+![Captura de Pantalla](Images/mlops_cycle.png)
+
 <div align="center">Esteban Ariel Parrón - Machine Learning Operations </div>
 
 Bienvenido a mi proyecto. Aquí encontrarás todo lo necesario para comenzar.
