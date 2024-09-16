@@ -58,7 +58,7 @@ Se realizó un entorno virtual (virtualenv), para poder trabajar con programas e
 # 5- DESARROLLO DEL PROYECTO
 El proceso que realice fue:
 
-<strong>1-	Comencé con el ETL:</strong> De los dos dataset que forman parte de los datos que teníamos.
+<strong>1)	Comencé con el ETL:</strong> De los dos dataset que forman parte de los datos que teníamos.
 ## ETL (Extracion Transformacion y Limpieza de datos)
 <strong>Etapa de Extraccion:</strong> Comenzaremos extrayendo los datos de dos archivos csv, los cuales son "movies_dataset.csv" y "credits.csv", que nos pasaron.
 Vamoos a comenzar a analizar, de acuerdo al diccionario de datos que nos dieron, que atributos posee cada uno y ver que tipos de datos tienen, (int, float, str, listas, diccionario,etc.).
@@ -70,39 +70,39 @@ Crear una columna con el nombre return, para devolver el retorno de inversion de
 
 <strong>Etapa de Eliminacion de datos:</strong> Eliminar las columnas que no serán utilizadas, video,imdb_id,adult,original_title,poster_path y homepage.
 
-<strong>2-	Desarrollo de la API y de los endpoints:</strong>
+<strong>2)	Desarrollo de la API y de los endpoints:</strong>
 Los endpoints desarrollados fueron:
-•	def cantidad_peliculas_mes(mes): Se ingresa el mes en minúscula, por ejemplo abril, y la función retorna la cantidad de películas que se estrenaron en ese mes.
+•	<strong>def</strong> cantidad_peliculas_mes(mes): Se ingresa el mes en minúscula, por ejemplo abril, y la función retorna la cantidad de películas que se estrenaron en ese mes.
 
-Formato de salida: En el mes de {mes} se estrenaron {cantidad} películas.
+<strong>Formato de salida:</strong> En el mes de {mes} se estrenaron {cantidad} películas.
 
-•	def cantidad_peliculas_dia(dia): Se ingresa el día en minúscula, por ejemplo sábado, y la función retorna la cantidad de películas que se estrenaron ese día.
+•	<strong>def</strong> cantidad_peliculas_dia(dia): Se ingresa el día en minúscula, por ejemplo sábado, y la función retorna la cantidad de películas que se estrenaron ese día.
 
-Formato de salida: En el día {dia} se estrenaron {cantidad} películas.
+<strong>Formato de salida:</strong> En el día {dia} se estrenaron {cantidad} películas.
 
-•	def score_titulo(titulo): Se ingresa el título de una película, por ejemplo "Titanic", y se retorna el título, el año de estreno y el score.
+•	<strong>def</strong> score_titulo(titulo): Se ingresa el título de una película, por ejemplo "Titanic", y se retorna el título, el año de estreno y el score.
 
-  Formato de salida: "Título de la película": resultado['title'], "Año":           resultado['release_year'], "Puntaje": resultado['vote_average'].
+  <strong>Formato de salida:</strong> "Título de la película": resultado['title'], "Año":           resultado['release_year'], "Puntaje": resultado['vote_average'].
   
-•	def votos_titulo(titulo): Se ingresa el título de una película, por ejemplo "Titanic", y se retorna el título, el año de estreno y el score.
+•	<strong>def</strong> votos_titulo(titulo): Se ingresa el título de una película, por ejemplo "Titanic", y se retorna el título, el año de estreno y el score.
 
-Formato de salida: {
+</strong>Formato de salida:</strong> {
           'Título de la película': titulo, 
           'Año': year_es, 
           'Voto total': voto_tot, 
           'Voto promedio': voto_prom}
           
-•	def get_actor(nombre_actor): Se ingresa el nombre de un actor, por ejemplo "Tom Hanks" y se retorna su éxito medido a través del retorno, cantidad de películas y promedio de retorno.
+•	<strong>def</strong> get_actor(nombre_actor): Se ingresa el nombre de un actor, por ejemplo "Tom Hanks" y se retorna su éxito medido a través del retorno, cantidad de películas y promedio de retorno.
 
-Formato de salida: {
+</strong>Formato de salida:</strong> {
   "Actor/Actriz": nombre_actor,
   "Cantidad de películas": cantidad_peliculas,
   "Retorno Total": total_retorno,
   "Retorno Promedio": promedio_retorno}
   
-•	def get_director(nombre_director): Se ingresa el nombre de un director y se retorna su éxito medido a través del retorno, nombre de cada película, fecha de lanzamiento, retorno individual, costo y ganancia.
+•	<strong>def</strong> get_director(nombre_director): Se ingresa el nombre de un director y se retorna su éxito medido a través del retorno, nombre de cada película, fecha de lanzamiento, retorno individual, costo y ganancia.
 
-Formato de salida: {
+<strong>Formato de salida:</strong> {
   "Director": nombre_director,
   "Retorno Total": total_retorno,
   "Películas": resultado}
