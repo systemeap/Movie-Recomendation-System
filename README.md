@@ -73,15 +73,15 @@ Crear una columna con el nombre return, para devolver el retorno de inversion de
 <strong>2)	Desarrollo de la API y de los endpoints:</strong>
 Los endpoints desarrollados fueron:
 
-•	<strong>def</strong> cantidad_peliculas_mes(mes): Se ingresa el mes en minúscula, por ejemplo abril, y la función retorna la cantidad de películas que se estrenaron en ese mes.
+•	<code><strong>def</strong> cantidad_peliculas_mes(mes):</code> Se ingresa el mes en minúscula, por ejemplo abril, y la función retorna la cantidad de películas que se estrenaron en ese mes.
 
 <strong>Formato de salida:</strong> En el mes de {mes} se estrenaron {cantidad} películas.
 
-•	<strong>def</strong> cantidad_peliculas_dia(dia): Se ingresa el día en minúscula, por ejemplo sábado, y la función retorna la cantidad de películas que se estrenaron ese día.
+•	<code><strong>def</strong> cantidad_peliculas_dia(dia):</code> Se ingresa el día en minúscula, por ejemplo sábado, y la función retorna la cantidad de películas que se estrenaron ese día.
 
 <strong>Formato de salida:</strong> En el día {dia} se estrenaron {cantidad} películas.
 
-•	<strong>def</strong> score_titulo(titulo): Se ingresa el título de una película, por ejemplo "Titanic", y se retorna el título, el año de estreno y el score.
+•	<code><strong>def</strong> score_titulo(titulo):</code> Se ingresa el título de una película, por ejemplo "Titanic", y se retorna el título, el año de estreno y el score.
 
   <strong>Formato de salida:</strong> "Título de la película": resultado['title'], "Año":           resultado['release_year'], "Puntaje": resultado['vote_average'].
   
