@@ -72,6 +72,7 @@ Crear una columna con el nombre return, para devolver el retorno de inversion de
 
 <strong>2)	Desarrollo de la API y de los endpoints:</strong>
 Los endpoints desarrollados fueron:
+
 •	<strong>def</strong> cantidad_peliculas_mes(mes): Se ingresa el mes en minúscula, por ejemplo abril, y la función retorna la cantidad de películas que se estrenaron en ese mes.
 
 <strong>Formato de salida:</strong> En el mes de {mes} se estrenaron {cantidad} películas.
@@ -121,14 +122,23 @@ Los endpoints desarrollados fueron:
 El video se realizó para demostrar y enseñar los pasos que se hicieron para realizar el proyecto, las herramientas que se utilizaron y que se instalaron y prueba en servidor local usando FASTAPI, y en producción usando la plataforma RENDER.
 Link del video:
 
-# 7- TERMINOLOGIA USADAS
+# 7- DEPLOYADO DE LA API
+La API, fue deployada en RENDER, pero antes se utilizo FASTAPI, para hacerlo en forma local y probar si funcionaban los endpoints antes de subirlo a la pataforma RENDER.
+Link de la plataforma:
+
+# 8- TERMINOLOGIA USADAS
 ETL: Proceso de extracción, transformación y limpieza de los datos que se realizan, para poder entender o tomar decisiones con los mismos.
 EDA:
 FASTAPI:
 ML:
 RENDER:
-# 8- DESPEDIDA Y AGRADECIMIENTO
+# 9- DESPEDIDA Y AGRADECIMIENTO
 Me despido de todo el PLANTEL DE PROFESIONALES que estuvieron al lado mio enseñándonos, y de los compañeros maravillosos que también me acompañaron desde que inicie hasta llegar a esta primera instancia de los proyectos individuales.
+
+# 10- LICENCIA
+Este tipo de LICENCIA, es una MIT, es de software de codigo abierto, abrir el archivo.
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles. 
+
 
 
 
