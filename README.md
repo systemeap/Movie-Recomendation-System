@@ -35,7 +35,7 @@ Además, el proyecto incluye una interfaz de usuario simple, ligera y amigable, 
 ## Objetivos secundarios
 •	Realizar un proceso de ETL (Extract, Transform, Load).
 
-•	Realizar el proceso de EDA ().
+•	Realizar el proceso de EDA (Exploratory Data Analysis).
 
 •	Crear 5 endpoints, para la API, donde se puede consultar datos específicos y hacer una recomendación de películas.
 
@@ -120,13 +120,13 @@ El EDA (Exploratory Data Analysis) Es un proceso fundamental en ciencia de datos
 A través del EDA, se buscan patrones, relaciones entre variables, distribuciones, valores atípicos, y características relevantes de los datos para una mejor toma de decisiones.
 Vamos a revisar cada uno de los datos.
 
-df.shape  # Este metodo me devuelve una tupla (filas, columnas)
+<code>df.shape</code>  # Este metodo me devuelve una tupla (filas, columnas)
 
-df.info()  # Revisa el tipo de cada columna (int, float, object, etc.).
+<code>df.info()</code>  # Revisa el tipo de cada columna (int, float, object, etc.).
 
-df.describe() # Muestra estadísticas básicas de las columnas numéricas.
+<code>df.describe()</code> # Muestra estadísticas básicas de las columnas numéricas.
 
-df.isnull().sum() # Identifica si existen valores nulos y su distribución.
+<code>df.isnull().sum()</code> # Identifica si existen valores nulos y su distribución.
 
 Con este proceso vamos a detectar errores, anomalias en los datos, identificar patrones y relaciones que no se ven a simple vista. 
 
