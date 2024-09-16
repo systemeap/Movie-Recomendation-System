@@ -85,7 +85,7 @@ Los endpoints desarrollados fueron:
 
   <strong>Formato de salida:</strong> "Título de la película": resultado['title'], "Año":           resultado['release_year'], "Puntaje": resultado['vote_average'].
   
-•	<strong>def</strong> votos_titulo(titulo): Se ingresa el título de una película, por ejemplo "Titanic", y se retorna el título, el año de estreno y el score.
+• <code><strong>def</strong> votos_titulo(titulo):</code> Se ingresa el título de una película, por ejemplo "Titanic", y se retorna el título, el año de estreno y el score.
 
 </strong>Formato de salida:</strong> {
           'Título de la película': titulo, 
@@ -93,7 +93,7 @@ Los endpoints desarrollados fueron:
           'Voto total': voto_tot, 
           'Voto promedio': voto_prom}
           
-•	<strong>def</strong> get_actor(nombre_actor): Se ingresa el nombre de un actor, por ejemplo "Tom Hanks" y se retorna su éxito medido a través del retorno, cantidad de películas y promedio de retorno.
+•	<code><strong>def</strong> get_actor(nombre_actor):</code> Se ingresa el nombre de un actor, por ejemplo "Tom Hanks" y se retorna su éxito medido a través del retorno, cantidad de películas y promedio de retorno.
 
 </strong>Formato de salida:</strong> {
   "Actor/Actriz": nombre_actor,
@@ -101,7 +101,7 @@ Los endpoints desarrollados fueron:
   "Retorno Total": total_retorno,
   "Retorno Promedio": promedio_retorno}
   
-•	<strong>def</strong> get_director(nombre_director): Se ingresa el nombre de un director y se retorna su éxito medido a través del retorno, nombre de cada película, fecha de lanzamiento, retorno individual, costo y ganancia.
+•	<code><strong>def</strong> get_director(nombre_director):</code> Se ingresa el nombre de un director y se retorna su éxito medido a través del retorno, nombre de cada película, fecha de lanzamiento, retorno individual, costo y ganancia.
 
 <strong>Formato de salida:</strong> {
   "Director": nombre_director,
@@ -114,19 +114,19 @@ Los endpoints desarrollados fueron:
           "Presupuesto":   ,
           "Ganancia":    }
           
-<strong>3-	Análisis exploratorio de los datos EDA:</strong>
+<strong>3)	Análisis exploratorio de los datos EDA:</strong>
 El EDA (Exploratory Data Analysis) Es un proceso fundamental en ciencia de datos cuyo objetivo es comprender las características principales de un conjunto de datos antes de aplicar cualquier modelo predictivo o análisis estadístico avanzado. 
 
 A través del EDA, se buscan patrones, relaciones entre variables, distribuciones, valores atípicos, y características relevantes de los datos para una mejor toma de decisiones.
 Vamos a revisar cada uno de los datos.
 
-df.shape
+df.shape  # Este metodo me devuelve una tupla (filas, columnas)
 
-df.info()
+df.info()  # Revisa el tipo de cada columna (int, float, object, etc.).
 
-df.describe()
+df.describe() # Muestra estadísticas básicas de las columnas numéricas.
 
-df.isnull().sum()
+df.isnull().sum() # Identifica si existen valores nulos y su distribución.
 
 Con este proceso vamos a detectar errores, anomalias en los datos, identificar patrones y relaciones que no se ven a simple vista. 
 
