@@ -140,7 +140,7 @@ Link del video:
 
 # 7- DEPLOYADO DE LA API
 La API, fue deployada en RENDER, pero antes se utilizo FASTAPI, para hacerlo en forma local y probar si funcionaban los endpoints antes de subirlo a la pataforma RENDER.
-Link de la plataforma:
+Link de la plataforma: <a href="https://movie-recomendation-system-miyk.onrender.com/docs"> Sistema Recomendacion - Esteban Parrón</a>
 
 # 8- TERMINOLOGIA USADAS
 ETL: Proceso de extracción, transformación y limpieza de los datos que se realizan, para poder entender o tomar decisiones con los mismos.
