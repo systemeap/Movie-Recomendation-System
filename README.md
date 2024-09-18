@@ -136,7 +136,7 @@ Con este proceso vamos a detectar errores, anomalias en los datos, identificar p
 
 # 6- VIDEO DEL PROYECTO
 El video se realizó para demostrar y enseñar los pasos que se hicieron para realizar el proyecto, las herramientas que se utilizaron y que se instalaron y prueba en servidor local usando FASTAPI, y en producción usando la plataforma RENDER.
-Link del video:
+Link del video: https://youtu.be/qagiZHI1s1Q
 
 # 7- DEPLOYADO DE LA API
 La API, fue deployada en RENDER, pero antes se utilizo FASTAPI, para hacerlo en forma local y probar si funcionaban los endpoints antes de subirlo a la pataforma RENDER.
@@ -144,10 +144,11 @@ Link de la plataforma: <a href="https://movie-recomendation-system-miyk.onrender
 
 # 8- TERMINOLOGIA USADAS
 ETL: Proceso de extracción, transformación y limpieza de los datos que se realizan, para poder entender o tomar decisiones con los mismos.
-EDA:
-FASTAPI:
-ML:
-RENDER:
+EDA: Proceso que cuando una vez que se hizo el ETL, mediante este proceso se puede analizar relaciones entre las variables, identificar outliers, y valores atipicos
+FASTAPI: Es un framework moderno de python, el cual nos permite construir API en PYTHON, donde se puede deployar, en forma local.
+ML: Es lo que se llama modelo de machine learning.
+RENDER: Es una plataforma en la nube para desplegar aplicaciones web, APIs, servicios estáticos y bases de datos. Ofrece un servicio completo de hosting y deployment que facilita a los desarrolladores desplegar sus aplicaciones.
+
 # 9- DESPEDIDA Y AGRADECIMIENTO
 Me despido de todo el PLANTEL DE PROFESIONALES que estuvieron al lado mio enseñándonos, y de los compañeros maravillosos que también me acompañaron desde que inicie hasta llegar a esta primera instancia de los proyectos individuales.
 
